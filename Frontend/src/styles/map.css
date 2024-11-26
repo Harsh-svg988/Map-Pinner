@@ -1,0 +1,47 @@
+/* src/styles/map.css */
+.map-container {
+  width: 100%;  /* or a specific width */
+  height: 500px;  /* or a specific height */
+  position: relative;  /* necessary for positioning */
+}
+
+.map-marker {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.new-story-form {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.new-story-form input,
+.new-story-form textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.new-story-form button {
+  padding: 0.5rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.new-story-form button:hover {
+  background-color: #45a049;
+}

@@ -1,0 +1,25 @@
+/* src/styles/storyForm.css */
+.story-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.story-form input,
+.story-form textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.story-form button {
+  padding: 0.5rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.story-form button:hover {
+  background-color: #45a049;
+}
